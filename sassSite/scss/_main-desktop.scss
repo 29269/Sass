@@ -1,0 +1,15 @@
+// desktop
+.container{
+  min-height: calc(100vh - 3em);
+  display: grid;
+  grid-template-rows: 1fr 2fr auto;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 0 3em ;
+  .knop-houder{
+    border-bottom: 0;
+  }
+}
